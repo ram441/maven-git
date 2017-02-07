@@ -6,12 +6,12 @@
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
   
-  <distributionManagement>
+  <!--distributionManagement>
    <snapshotRepository>
       <id>nexus-snapshots</id>
       <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
    </snapshotRepository>
-</distributionManagement>
+</distributionManagement-->
 
   <name>my-app</name>
   <url>http://maven.apache.org</url>
@@ -51,7 +51,7 @@
 			 <username>MRMR</username>
 			 <password>11441</password>
 			 <update>true</update>
-			 <path>C:\Users\MRMR\Desktop\mvn-proj\my-app\target</path>
+			 <path>F:\mvn-git\maven-git\my-app\target</path>
 		    </configuration>
 	      </plugin>
 		  
